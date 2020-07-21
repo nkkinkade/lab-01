@@ -1,0 +1,35 @@
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+body {
+    width: 480px;
+    margin: auto;
+}
+
+div {
+    border: solid 1px black;
+    text-align: center;
+    background-color: cornsilk;
+}
+
+header  div{
+    min-height: 75px;
+    line-height: 75px;
+}
+
+aside div {
+    min-height: 150px;
+    line-height: 150px;
+}
+
+.top div {
+    min-height: 125px;
+    line-height: 125px;
+}
+
+.bottom {
+    min-height: 80px;
+    line-height: 80px;
+}

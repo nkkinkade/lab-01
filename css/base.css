@@ -1,35 +1,82 @@
 * {
-    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
     box-sizing: border-box;
   }
+ 
+  .a {
+    grid-area: a;
+    background-color: red;
+  }
 
-body {
-    width: 480px;
-    margin: auto;
-}
+  .b {
+    grid-area: b;
+    background-color: red;
+  }
 
-div {
-    border: solid 1px black;
-    text-align: center;
-    background-color: cornsilk;
-}
+  .c {
+    grid-area: c;
+    background-color: red;
+  }
 
-header  div{
-    min-height: 75px;
-    line-height: 75px;
-}
+  .d {
+    grid-area: d;
+    background-color: whitesmoke;
+  }
+  
+  .e {
+    grid-area: e;
+    background-color: whitesmoke;
+  }
 
-aside div {
-    min-height: 150px;
-    line-height: 150px;
-}
+  .f {
+    grid-area: f;
+    background-color: whitesmoke;
+  }
 
-.top div {
-    min-height: 125px;
-    line-height: 125px;
-}
+  .g {
+    grid-area: g;
+    background-color: blue;
+    color: whitesmoke;
+  }
 
-.bottom {
-    min-height: 80px;
-    line-height: 80px;
-}
+  .h {
+    grid-area: h;
+    background-color: blue;
+    color: whitesmoke;
+  }
+
+  .i {
+    grid-area: i;
+    background-color: blue;
+    color: whitesmoke;
+  }
+  
+  @media (min-width: 800px) {
+    .a {
+      background-color: pink;
+    }
+
+    .b {
+      background-color: skyblue;
+    }
+
+    .c {
+      background-color: lime;
+    }
+
+    .d {
+      background-color: lime;
+    }
+
+    .e,.f,.g,.h {
+      background-color: purple;
+      color: black;
+    }
+
+    .i {
+      background-color: yellow;
+      color: black;
+    }
+  }
+  
